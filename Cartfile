@@ -1,0 +1,7 @@
+github "Alamofire/Alamofire"
+github "matthewpalmer/Locksmith"
+github "ReactiveX/RxSwift"
+github "onevcat/Kingfisher"
+github "DaveWoodCom/XCGLogger"
+github "SnapKit/SnapKit"
+github "Hearst-DD/ObjectMapper"

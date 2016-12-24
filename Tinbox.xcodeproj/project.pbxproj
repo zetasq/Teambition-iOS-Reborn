@@ -14,6 +14,14 @@
 		D4F12B1E1E0E673400215EE0 /* TinboxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F12B1D1E0E673400215EE0 /* TinboxUITests.swift */; };
 		D4F12B2E1E0E67CE00215EE0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F12B2D1E0E67CE00215EE0 /* AppDelegate.swift */; };
 		D4F12B311E0E6A2C00215EE0 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F12B301E0E6A2C00215EE0 /* MainViewController.swift */; };
+		D4F12B341E0E780B00215EE0 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4F12B331E0E780B00215EE0 /* Alamofire.framework */; };
+		D4F12B3C1E0E784400215EE0 /* Kingfisher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4F12B351E0E784400215EE0 /* Kingfisher.framework */; };
+		D4F12B3D1E0E784400215EE0 /* Locksmith.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4F12B361E0E784400215EE0 /* Locksmith.framework */; };
+		D4F12B3E1E0E784400215EE0 /* ObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4F12B371E0E784400215EE0 /* ObjectMapper.framework */; };
+		D4F12B3F1E0E784400215EE0 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4F12B381E0E784400215EE0 /* RxCocoa.framework */; };
+		D4F12B401E0E784400215EE0 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4F12B391E0E784400215EE0 /* RxSwift.framework */; };
+		D4F12B411E0E784400215EE0 /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4F12B3A1E0E784400215EE0 /* SnapKit.framework */; };
+		D4F12B421E0E784400215EE0 /* XCGLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4F12B3B1E0E784400215EE0 /* XCGLogger.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +55,14 @@
 		D4F12B1F1E0E673400215EE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D4F12B2D1E0E67CE00215EE0 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D4F12B301E0E6A2C00215EE0 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		D4F12B331E0E780B00215EE0 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		D4F12B351E0E784400215EE0 /* Kingfisher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kingfisher.framework; path = Carthage/Build/iOS/Kingfisher.framework; sourceTree = "<group>"; };
+		D4F12B361E0E784400215EE0 /* Locksmith.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Locksmith.framework; path = Carthage/Build/iOS/Locksmith.framework; sourceTree = "<group>"; };
+		D4F12B371E0E784400215EE0 /* ObjectMapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ObjectMapper.framework; path = Carthage/Build/iOS/ObjectMapper.framework; sourceTree = "<group>"; };
+		D4F12B381E0E784400215EE0 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
+		D4F12B391E0E784400215EE0 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
+		D4F12B3A1E0E784400215EE0 /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SnapKit.framework; path = Carthage/Build/iOS/SnapKit.framework; sourceTree = "<group>"; };
+		D4F12B3B1E0E784400215EE0 /* XCGLogger.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCGLogger.framework; path = Carthage/Build/iOS/XCGLogger.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +70,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4F12B3C1E0E784400215EE0 /* Kingfisher.framework in Frameworks */,
+				D4F12B3D1E0E784400215EE0 /* Locksmith.framework in Frameworks */,
+				D4F12B3E1E0E784400215EE0 /* ObjectMapper.framework in Frameworks */,
+				D4F12B3F1E0E784400215EE0 /* RxCocoa.framework in Frameworks */,
+				D4F12B401E0E784400215EE0 /* RxSwift.framework in Frameworks */,
+				D4F12B411E0E784400215EE0 /* SnapKit.framework in Frameworks */,
+				D4F12B421E0E784400215EE0 /* XCGLogger.framework in Frameworks */,
+				D4F12B341E0E780B00215EE0 /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,6 +106,7 @@
 				D4F12B111E0E673400215EE0 /* TinboxTests */,
 				D4F12B1C1E0E673400215EE0 /* TinboxUITests */,
 				D4F12AF81E0E673400215EE0 /* Products */,
+				D4F12B321E0E780B00215EE0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -149,6 +174,21 @@
 			path = MainInterface;
 			sourceTree = "<group>";
 		};
+		D4F12B321E0E780B00215EE0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D4F12B351E0E784400215EE0 /* Kingfisher.framework */,
+				D4F12B361E0E784400215EE0 /* Locksmith.framework */,
+				D4F12B371E0E784400215EE0 /* ObjectMapper.framework */,
+				D4F12B381E0E784400215EE0 /* RxCocoa.framework */,
+				D4F12B391E0E784400215EE0 /* RxSwift.framework */,
+				D4F12B3A1E0E784400215EE0 /* SnapKit.framework */,
+				D4F12B3B1E0E784400215EE0 /* XCGLogger.framework */,
+				D4F12B331E0E780B00215EE0 /* Alamofire.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -159,6 +199,7 @@
 				D4F12AF31E0E673400215EE0 /* Sources */,
 				D4F12AF41E0E673400215EE0 /* Frameworks */,
 				D4F12AF51E0E673400215EE0 /* Resources */,
+				D4F12B431E0E788700215EE0 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -279,6 +320,30 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D4F12B431E0E788700215EE0 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Kingfisher.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Locksmith.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/ObjectMapper.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxCocoa.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxSwift.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SnapKit.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/XCGLogger.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D4F12AF31E0E673400215EE0 /* Sources */ = {
@@ -432,6 +497,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = DHNJ8N28ZZ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Tinbox/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zetasq.Tinbox;
@@ -445,6 +514,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = DHNJ8N28ZZ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Tinbox/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zetasq.Tinbox;
