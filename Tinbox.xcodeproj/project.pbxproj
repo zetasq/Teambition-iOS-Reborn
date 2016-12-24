@@ -7,14 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D4F12AFB1E0E673400215EE0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F12AFA1E0E673400215EE0 /* AppDelegate.swift */; };
-		D4F12AFD1E0E673400215EE0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F12AFC1E0E673400215EE0 /* ViewController.swift */; };
-		D4F12B001E0E673400215EE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4F12AFE1E0E673400215EE0 /* Main.storyboard */; };
 		D4F12B031E0E673400215EE0 /* Tinbox.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D4F12B011E0E673400215EE0 /* Tinbox.xcdatamodeld */; };
 		D4F12B051E0E673400215EE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4F12B041E0E673400215EE0 /* Assets.xcassets */; };
 		D4F12B081E0E673400215EE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4F12B061E0E673400215EE0 /* LaunchScreen.storyboard */; };
 		D4F12B131E0E673400215EE0 /* TinboxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F12B121E0E673400215EE0 /* TinboxTests.swift */; };
 		D4F12B1E1E0E673400215EE0 /* TinboxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F12B1D1E0E673400215EE0 /* TinboxUITests.swift */; };
+		D4F12B2E1E0E67CE00215EE0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F12B2D1E0E67CE00215EE0 /* AppDelegate.swift */; };
+		D4F12B311E0E6A2C00215EE0 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F12B301E0E6A2C00215EE0 /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,9 +35,6 @@
 
 /* Begin PBXFileReference section */
 		D4F12AF71E0E673400215EE0 /* Tinbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tinbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D4F12AFA1E0E673400215EE0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D4F12AFC1E0E673400215EE0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D4F12AFF1E0E673400215EE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D4F12B021E0E673400215EE0 /* Tinbox.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Tinbox.xcdatamodel; sourceTree = "<group>"; };
 		D4F12B041E0E673400215EE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D4F12B071E0E673400215EE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +45,8 @@
 		D4F12B191E0E673400215EE0 /* TinboxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TinboxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4F12B1D1E0E673400215EE0 /* TinboxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinboxUITests.swift; sourceTree = "<group>"; };
 		D4F12B1F1E0E673400215EE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4F12B2D1E0E67CE00215EE0 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D4F12B301E0E6A2C00215EE0 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +77,7 @@
 		D4F12AEE1E0E673400215EE0 = {
 			isa = PBXGroup;
 			children = (
+				D4F12B2B1E0E675900215EE0 /* Source */,
 				D4F12AF91E0E673400215EE0 /* Tinbox */,
 				D4F12B111E0E673400215EE0 /* TinboxTests */,
 				D4F12B1C1E0E673400215EE0 /* TinboxUITests */,
@@ -99,9 +98,6 @@
 		D4F12AF91E0E673400215EE0 /* Tinbox */ = {
 			isa = PBXGroup;
 			children = (
-				D4F12AFA1E0E673400215EE0 /* AppDelegate.swift */,
-				D4F12AFC1E0E673400215EE0 /* ViewController.swift */,
-				D4F12AFE1E0E673400215EE0 /* Main.storyboard */,
 				D4F12B041E0E673400215EE0 /* Assets.xcassets */,
 				D4F12B061E0E673400215EE0 /* LaunchScreen.storyboard */,
 				D4F12B091E0E673400215EE0 /* Info.plist */,
@@ -126,6 +122,31 @@
 				D4F12B1F1E0E673400215EE0 /* Info.plist */,
 			);
 			path = TinboxUITests;
+			sourceTree = "<group>";
+		};
+		D4F12B2B1E0E675900215EE0 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				D4F12B2C1E0E67C200215EE0 /* AppDelegate */,
+				D4F12B2F1E0E6A1600215EE0 /* MainInterface */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		D4F12B2C1E0E67C200215EE0 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				D4F12B2D1E0E67CE00215EE0 /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		D4F12B2F1E0E6A1600215EE0 /* MainInterface */ = {
+			isa = PBXGroup;
+			children = (
+				D4F12B301E0E6A2C00215EE0 /* MainViewController.swift */,
+			);
+			path = MainInterface;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,7 +261,6 @@
 			files = (
 				D4F12B081E0E673400215EE0 /* LaunchScreen.storyboard in Resources */,
 				D4F12B051E0E673400215EE0 /* Assets.xcassets in Resources */,
-				D4F12B001E0E673400215EE0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,9 +285,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4F12AFD1E0E673400215EE0 /* ViewController.swift in Sources */,
+				D4F12B311E0E6A2C00215EE0 /* MainViewController.swift in Sources */,
+				D4F12B2E1E0E67CE00215EE0 /* AppDelegate.swift in Sources */,
 				D4F12B031E0E673400215EE0 /* Tinbox.xcdatamodeld in Sources */,
-				D4F12AFB1E0E673400215EE0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,14 +323,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		D4F12AFE1E0E673400215EE0 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D4F12AFF1E0E673400215EE0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D4F12B061E0E673400215EE0 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
