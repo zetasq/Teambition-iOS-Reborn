@@ -7,13 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D42EE84E1E0F770300EF03E6 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42EE84D1E0F770300EF03E6 /* String+Extension.swift */; };
+		D42EE8501E0F869D00EF03E6 /* TinboxNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42EE84F1E0F869D00EF03E6 /* TinboxNotification.swift */; };
+		D42EE8521E0F916200EF03E6 /* TBError.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42EE8511E0F916200EF03E6 /* TBError.swift */; };
+		D42EE8551E0F994000EF03E6 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42EE8541E0F994000EF03E6 /* Task.swift */; };
+		D42EE8591E0FA43A00EF03E6 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42EE8581E0FA43A00EF03E6 /* Event.swift */; };
+		D42EE85B1E0FA81900EF03E6 /* RecentDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42EE85A1E0FA81900EF03E6 /* RecentDataManager.swift */; };
+		D42EE85D1E0FAA6700EF03E6 /* Subtask.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42EE85C1E0FAA6700EF03E6 /* Subtask.swift */; };
+		D42EE85F1E0FB38600EF03E6 /* SwiftDate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D42EE85E1E0FB38600EF03E6 /* SwiftDate.framework */; };
+		D42EE8611E0FBBF400EF03E6 /* OperatorOverloading.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42EE8601E0FBBF400EF03E6 /* OperatorOverloading.swift */; };
+		D42EE8651E0FE06000EF03E6 /* MainTaskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42EE8641E0FE06000EF03E6 /* MainTaskCell.swift */; };
+		D42EE8671E0FE06800EF03E6 /* MainSubtaskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42EE8661E0FE06800EF03E6 /* MainSubtaskCell.swift */; };
+		D42EE8691E0FE06F00EF03E6 /* MainEventCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42EE8681E0FE06F00EF03E6 /* MainEventCell.swift */; };
+		D42EE86B1E0FE23200EF03E6 /* ProjectDigest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42EE86A1E0FE23200EF03E6 /* ProjectDigest.swift */; };
+		D42EE86D1E0FE3BB00EF03E6 /* AutoReusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42EE86C1E0FE3BB00EF03E6 /* AutoReusable.swift */; };
+		D42EE86F1E0FED4600EF03E6 /* TaskDigest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42EE86E1E0FED4600EF03E6 /* TaskDigest.swift */; };
+		D4677CB21E0EB874007808B2 /* OAuth2Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4677CB11E0EB874007808B2 /* OAuth2Manager.swift */; };
+		D4677CB51E0EC6C2007808B2 /* RequestRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4677CB41E0EC6C2007808B2 /* RequestRouter.swift */; };
+		D4677CB71E0ED084007808B2 /* AccessTokenAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4677CB61E0ED084007808B2 /* AccessTokenAdapter.swift */; };
+		D4677CBC1E0ED2B3007808B2 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4677CBB1E0ED2B3007808B2 /* MainViewController.swift */; };
+		D4677CBF1E0ED3A9007808B2 /* Language.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4677CBE1E0ED3A9007808B2 /* Language.swift */; };
+		D4677CC11E0EDEE6007808B2 /* ReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4677CC01E0EDEE6007808B2 /* ReachabilityManager.swift */; };
 		D4F12B031E0E673400215EE0 /* Tinbox.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D4F12B011E0E673400215EE0 /* Tinbox.xcdatamodeld */; };
 		D4F12B051E0E673400215EE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4F12B041E0E673400215EE0 /* Assets.xcassets */; };
 		D4F12B081E0E673400215EE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4F12B061E0E673400215EE0 /* LaunchScreen.storyboard */; };
 		D4F12B131E0E673400215EE0 /* TinboxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F12B121E0E673400215EE0 /* TinboxTests.swift */; };
 		D4F12B1E1E0E673400215EE0 /* TinboxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F12B1D1E0E673400215EE0 /* TinboxUITests.swift */; };
 		D4F12B2E1E0E67CE00215EE0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F12B2D1E0E67CE00215EE0 /* AppDelegate.swift */; };
-		D4F12B311E0E6A2C00215EE0 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F12B301E0E6A2C00215EE0 /* MainViewController.swift */; };
 		D4F12B341E0E780B00215EE0 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4F12B331E0E780B00215EE0 /* Alamofire.framework */; };
 		D4F12B3C1E0E784400215EE0 /* Kingfisher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4F12B351E0E784400215EE0 /* Kingfisher.framework */; };
 		D4F12B3D1E0E784400215EE0 /* Locksmith.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4F12B361E0E784400215EE0 /* Locksmith.framework */; };
@@ -42,6 +62,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D42EE84D1E0F770300EF03E6 /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		D42EE84F1E0F869D00EF03E6 /* TinboxNotification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TinboxNotification.swift; sourceTree = "<group>"; };
+		D42EE8511E0F916200EF03E6 /* TBError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TBError.swift; sourceTree = "<group>"; };
+		D42EE8541E0F994000EF03E6 /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		D42EE8581E0FA43A00EF03E6 /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		D42EE85A1E0FA81900EF03E6 /* RecentDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecentDataManager.swift; sourceTree = "<group>"; };
+		D42EE85C1E0FAA6700EF03E6 /* Subtask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Subtask.swift; sourceTree = "<group>"; };
+		D42EE85E1E0FB38600EF03E6 /* SwiftDate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftDate.framework; path = Carthage/Build/iOS/SwiftDate.framework; sourceTree = "<group>"; };
+		D42EE8601E0FBBF400EF03E6 /* OperatorOverloading.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OperatorOverloading.swift; sourceTree = "<group>"; };
+		D42EE8641E0FE06000EF03E6 /* MainTaskCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTaskCell.swift; sourceTree = "<group>"; };
+		D42EE8661E0FE06800EF03E6 /* MainSubtaskCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainSubtaskCell.swift; sourceTree = "<group>"; };
+		D42EE8681E0FE06F00EF03E6 /* MainEventCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainEventCell.swift; sourceTree = "<group>"; };
+		D42EE86A1E0FE23200EF03E6 /* ProjectDigest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectDigest.swift; sourceTree = "<group>"; };
+		D42EE86C1E0FE3BB00EF03E6 /* AutoReusable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoReusable.swift; sourceTree = "<group>"; };
+		D42EE86E1E0FED4600EF03E6 /* TaskDigest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskDigest.swift; sourceTree = "<group>"; };
+		D4677CB11E0EB874007808B2 /* OAuth2Manager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OAuth2Manager.swift; sourceTree = "<group>"; };
+		D4677CB41E0EC6C2007808B2 /* RequestRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestRouter.swift; sourceTree = "<group>"; };
+		D4677CB61E0ED084007808B2 /* AccessTokenAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccessTokenAdapter.swift; sourceTree = "<group>"; };
+		D4677CBB1E0ED2B3007808B2 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		D4677CBE1E0ED3A9007808B2 /* Language.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Language.swift; sourceTree = "<group>"; };
+		D4677CC01E0EDEE6007808B2 /* ReachabilityManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReachabilityManager.swift; sourceTree = "<group>"; };
 		D4F12AF71E0E673400215EE0 /* Tinbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tinbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4F12B021E0E673400215EE0 /* Tinbox.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Tinbox.xcdatamodel; sourceTree = "<group>"; };
 		D4F12B041E0E673400215EE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -54,7 +95,6 @@
 		D4F12B1D1E0E673400215EE0 /* TinboxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinboxUITests.swift; sourceTree = "<group>"; };
 		D4F12B1F1E0E673400215EE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D4F12B2D1E0E67CE00215EE0 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D4F12B301E0E6A2C00215EE0 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		D4F12B331E0E780B00215EE0 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
 		D4F12B351E0E784400215EE0 /* Kingfisher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kingfisher.framework; path = Carthage/Build/iOS/Kingfisher.framework; sourceTree = "<group>"; };
 		D4F12B361E0E784400215EE0 /* Locksmith.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Locksmith.framework; path = Carthage/Build/iOS/Locksmith.framework; sourceTree = "<group>"; };
@@ -70,6 +110,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D42EE85F1E0FB38600EF03E6 /* SwiftDate.framework in Frameworks */,
 				D4F12B3C1E0E784400215EE0 /* Kingfisher.framework in Frameworks */,
 				D4F12B3D1E0E784400215EE0 /* Locksmith.framework in Frameworks */,
 				D4F12B3E1E0E784400215EE0 /* ObjectMapper.framework in Frameworks */,
@@ -98,6 +139,83 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D42EE84A1E0F76C900EF03E6 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D42EE84B1E0F76E800EF03E6 /* Foundation */,
+				D42EE84C1E0F76F400EF03E6 /* UIKit */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D42EE84B1E0F76E800EF03E6 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				D42EE84D1E0F770300EF03E6 /* String+Extension.swift */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		D42EE84C1E0F76F400EF03E6 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				D42EE86C1E0FE3BB00EF03E6 /* AutoReusable.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		D42EE8531E0F98E400EF03E6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D42EE8541E0F994000EF03E6 /* Task.swift */,
+				D42EE85C1E0FAA6700EF03E6 /* Subtask.swift */,
+				D42EE8581E0FA43A00EF03E6 /* Event.swift */,
+				D42EE86A1E0FE23200EF03E6 /* ProjectDigest.swift */,
+				D42EE86E1E0FED4600EF03E6 /* TaskDigest.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D4677CB31E0EC6B8007808B2 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				D4677CB41E0EC6C2007808B2 /* RequestRouter.swift */,
+				D4677CB61E0ED084007808B2 /* AccessTokenAdapter.swift */,
+				D4677CC01E0EDEE6007808B2 /* ReachabilityManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		D4677CB91E0ED296007808B2 /* UserInterface */ = {
+			isa = PBXGroup;
+			children = (
+				D4677CBA1E0ED2A1007808B2 /* Main */,
+			);
+			path = UserInterface;
+			sourceTree = "<group>";
+		};
+		D4677CBA1E0ED2A1007808B2 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				D4677CBB1E0ED2B3007808B2 /* MainViewController.swift */,
+				D42EE8641E0FE06000EF03E6 /* MainTaskCell.swift */,
+				D42EE8661E0FE06800EF03E6 /* MainSubtaskCell.swift */,
+				D42EE8681E0FE06F00EF03E6 /* MainEventCell.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		D4677CBD1E0ED389007808B2 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				D4677CBE1E0ED3A9007808B2 /* Language.swift */,
+				D42EE84F1E0F869D00EF03E6 /* TinboxNotification.swift */,
+				D42EE8511E0F916200EF03E6 /* TBError.swift */,
+				D42EE8601E0FBBF400EF03E6 /* OperatorOverloading.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
 		D4F12AEE1E0E673400215EE0 = {
 			isa = PBXGroup;
 			children = (
@@ -153,7 +271,12 @@
 			isa = PBXGroup;
 			children = (
 				D4F12B2C1E0E67C200215EE0 /* AppDelegate */,
-				D4F12B2F1E0E6A1600215EE0 /* MainInterface */,
+				D4677CB31E0EC6B8007808B2 /* Network */,
+				D4F12B441E0E88E200215EE0 /* ServiceManager */,
+				D42EE8531E0F98E400EF03E6 /* Model */,
+				D4677CB91E0ED296007808B2 /* UserInterface */,
+				D42EE84A1E0F76C900EF03E6 /* Extensions */,
+				D4677CBD1E0ED389007808B2 /* Tools */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -166,17 +289,10 @@
 			path = AppDelegate;
 			sourceTree = "<group>";
 		};
-		D4F12B2F1E0E6A1600215EE0 /* MainInterface */ = {
-			isa = PBXGroup;
-			children = (
-				D4F12B301E0E6A2C00215EE0 /* MainViewController.swift */,
-			);
-			path = MainInterface;
-			sourceTree = "<group>";
-		};
 		D4F12B321E0E780B00215EE0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D42EE85E1E0FB38600EF03E6 /* SwiftDate.framework */,
 				D4F12B351E0E784400215EE0 /* Kingfisher.framework */,
 				D4F12B361E0E784400215EE0 /* Locksmith.framework */,
 				D4F12B371E0E784400215EE0 /* ObjectMapper.framework */,
@@ -187,6 +303,15 @@
 				D4F12B331E0E780B00215EE0 /* Alamofire.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D4F12B441E0E88E200215EE0 /* ServiceManager */ = {
+			isa = PBXGroup;
+			children = (
+				D4677CB11E0EB874007808B2 /* OAuth2Manager.swift */,
+				D42EE85A1E0FA81900EF03E6 /* RecentDataManager.swift */,
+			);
+			path = ServiceManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -336,6 +461,7 @@
 				"$(SRCROOT)/Carthage/Build/iOS/RxSwift.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/SnapKit.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/XCGLogger.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SwiftDate.framework",
 			);
 			outputPaths = (
 			);
@@ -350,9 +476,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4F12B311E0E6A2C00215EE0 /* MainViewController.swift in Sources */,
+				D42EE85B1E0FA81900EF03E6 /* RecentDataManager.swift in Sources */,
+				D42EE86D1E0FE3BB00EF03E6 /* AutoReusable.swift in Sources */,
+				D42EE8521E0F916200EF03E6 /* TBError.swift in Sources */,
+				D4677CC11E0EDEE6007808B2 /* ReachabilityManager.swift in Sources */,
+				D42EE84E1E0F770300EF03E6 /* String+Extension.swift in Sources */,
+				D4677CBC1E0ED2B3007808B2 /* MainViewController.swift in Sources */,
+				D42EE8691E0FE06F00EF03E6 /* MainEventCell.swift in Sources */,
+				D42EE86B1E0FE23200EF03E6 /* ProjectDigest.swift in Sources */,
+				D42EE8551E0F994000EF03E6 /* Task.swift in Sources */,
+				D4677CB51E0EC6C2007808B2 /* RequestRouter.swift in Sources */,
 				D4F12B2E1E0E67CE00215EE0 /* AppDelegate.swift in Sources */,
+				D4677CBF1E0ED3A9007808B2 /* Language.swift in Sources */,
+				D4677CB71E0ED084007808B2 /* AccessTokenAdapter.swift in Sources */,
+				D42EE8611E0FBBF400EF03E6 /* OperatorOverloading.swift in Sources */,
+				D42EE8651E0FE06000EF03E6 /* MainTaskCell.swift in Sources */,
+				D42EE85D1E0FAA6700EF03E6 /* Subtask.swift in Sources */,
+				D4677CB21E0EB874007808B2 /* OAuth2Manager.swift in Sources */,
+				D42EE8501E0F869D00EF03E6 /* TinboxNotification.swift in Sources */,
 				D4F12B031E0E673400215EE0 /* Tinbox.xcdatamodeld in Sources */,
+				D42EE8671E0FE06800EF03E6 /* MainSubtaskCell.swift in Sources */,
+				D42EE86F1E0FED4600EF03E6 /* TaskDigest.swift in Sources */,
+				D42EE8591E0FA43A00EF03E6 /* Event.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,6 +587,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -520,6 +666,7 @@
 				);
 				INFOPLIST_FILE = Tinbox/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zetasq.Tinbox;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -603,6 +750,7 @@
 				D4F12B241E0E673400215EE0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D4F12B251E0E673400215EE0 /* Build configuration list for PBXNativeTarget "TinboxTests" */ = {
 			isa = XCConfigurationList;
@@ -611,6 +759,7 @@
 				D4F12B271E0E673400215EE0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D4F12B281E0E673400215EE0 /* Build configuration list for PBXNativeTarget "TinboxUITests" */ = {
 			isa = XCConfigurationList;
@@ -619,6 +768,7 @@
 				D4F12B2A1E0E673400215EE0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

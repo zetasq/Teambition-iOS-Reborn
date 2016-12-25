@@ -8,13 +8,28 @@
 
 import UIKit
 import CoreData
+import XCGLogger
+import Alamofire
+
+let log = XCGLogger.default
 
 @UIApplicationMain
 final class AppDelegate: UIResponder, UIApplicationDelegate {
     
     var window: UIWindow?
     
+    // MARK: - App Life Cycle
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+        #if DEBUG
+            log.setup(level: .debug, showLogIdentifier: false, showFunctionName: true, showThreadName: true, showLevel: true, showFileNames: true, showLineNumbers: true, showDate: true, writeToFile: nil, fileLevel: nil)
+        #else
+            log.setup(level: .severe, showLogIdentifier: false, showFunctionName: true, showThreadName: true, showLevel: true, showFileNames: true, showLineNumbers: true, showDate: true, writeToFile: nil, fileLevel: nil)
+        #endif
+        
+        Alamofire.SessionManager.default.adapter = AccessTokenAdapter.shared
+        ReachabilityManager.shared.startListening()
+        
+
         window = UIWindow(frame: UIScreen.main.bounds)
         
         let mainViewController = MainViewController()
@@ -48,6 +63,21 @@ final class AppDelegate: UIResponder, UIApplicationDelegate {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
         // Saves changes in the application's managed object context before the application terminates.
         self.saveContext()
+    }
+    
+    func application(_ app: UIApplication, open url: URL, options: [UIApplicationOpenURLOptionsKey : Any] = [:]) -> Bool {
+        guard url.host == Bundle.main.bundleIdentifier else {
+            return false
+        }
+        
+        switch url.relativePath {
+        case let path where path == OAuth2Manager.callBackURL.relativePath:
+            OAuth2Manager.handleOAuthCallback(url: url)
+        default:
+            break
+        }
+        
+        return true
     }
     
     // MARK: - Core Data stack
