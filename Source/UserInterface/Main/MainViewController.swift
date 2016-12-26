@@ -29,8 +29,11 @@ final class MainViewController: UIViewController {
     private lazy var tableView: UITableView = {
         let tableView = UITableView(frame: .zero, style: .plain)
         
+        tableView.separatorInset = .zero
+        tableView.backgroundColor = .white
         tableView.refreshControl = self.refreshControl
         tableView.estimatedRowHeight = 30
+        
         tableView.delegate = self
         tableView.dataSource = self
         
@@ -50,6 +53,10 @@ final class MainViewController: UIViewController {
         
         setupUI()
         registerNotificationHandlers()
+        
+        if let _ = AccessTokenAdapter.accessToken {
+            loadData()
+        }
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -66,6 +73,8 @@ final class MainViewController: UIViewController {
     
     // MARK: - UI Setup
     private func setupUI() {
+        view.backgroundColor = .white
+        
         view.addSubview(tableView)
         tableView.snp.makeConstraints { make in
             make.edges.equalToSuperview()

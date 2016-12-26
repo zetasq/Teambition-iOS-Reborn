@@ -40,10 +40,10 @@ final class Subtask: Mappable, TaskSortable {
         executorID <- map["_executorId"]
         projectID <- map["_projectId"]
         creatorID <- map["_creatorId"]
-        updated <- (map["updated"], ISO8601DateTransform())
-        created <- (map["created"], ISO8601DateTransform())
+        updated <- (map["updated"], TBDateTransform())
+        created <- (map["created"], TBDateTransform())
         isDone <- map["isDone"]
-        dueDate <- (map["dueDate"], ISO8601DateTransform())
+        dueDate <- (map["dueDate"], TBDateTransform())
         content <- map["content"]
         project <- map["project"]
         task <- map["task"]

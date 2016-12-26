@@ -29,12 +29,10 @@ enum RequestRouter: URLRequestConvertible {
         let result = asResult()
         
         let url = asURL().appendingPathComponent(result.path)
-        let urlRequest = try URLRequest(url: url, method: result.method, headers: nil)
+        let headers = ["Accept-Language": Language.current.formattedStringForServer]
+        let urlRequest = try URLRequest(url: url, method: result.method, headers: headers)
         
-        var parameters = result.parameters
-        parameters["lang"] = Language.current.formattedStringForServer
-        
-        return try URLEncoding.default.encode(urlRequest, with: parameters)
+        return try URLEncoding.default.encode(urlRequest, with: result.parameters)
     }
 }
 

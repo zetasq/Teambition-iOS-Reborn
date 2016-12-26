@@ -70,28 +70,28 @@ final class MainEventCell: UITableViewCell {
         layoutMargins = .zero
         
         addSubview(projectLabel)
-        projectLabel.snp.makeConstraints { (make) in
-            make.top.equalToSuperview().offset(-5)
+        projectLabel.snp.makeConstraints { make in
+            make.top.equalToSuperview().offset(5)
             make.left.equalToSuperview().offset(10)
         }
         
         dateLabel.setContentCompressionResistancePriority(UILayoutPriorityDefaultHigh + 1, for: .horizontal)
         addSubview(dateLabel)
-        dateLabel.snp.makeConstraints { (make) in
+        dateLabel.snp.makeConstraints { make in
             make.firstBaseline.equalTo(projectLabel)
             make.left.equalTo(projectLabel.snp.right).offset(5)
             make.right.equalToSuperview().offset(-10)
         }
         
         addSubview(titleLabel)
-        titleLabel.snp.makeConstraints { (make) in
+        titleLabel.snp.makeConstraints { make in
             make.left.equalTo(projectLabel)
             make.top.equalTo(projectLabel.snp.bottom).offset(3)
             make.right.equalTo(dateLabel)
         }
         
         addSubview(contentLabel)
-        contentLabel.snp.makeConstraints { (make) in
+        contentLabel.snp.makeConstraints { make in
             make.left.equalTo(titleLabel)
             make.top.equalTo(titleLabel.snp.bottom).offset(3)
             make.right.equalTo(titleLabel)

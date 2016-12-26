@@ -93,14 +93,14 @@ final class Task: Mappable, TaskSortable {
         subtaskIDs <- map["subtaskIds"]
         involveMembers <- map["involveMembers"]
         tagIDs <- map["tagIds"]
-        updated <- (map["updated"], ISO8601DateTransform())
-        created <- (map["created"], ISO8601DateTransform())
+        updated <- (map["updated"], TBDateTransform())
+        created <- (map["created"], TBDateTransform())
         isDeleted <- map["isDeleted"]
         isDone <- map["isDone"]
         source <- map["source"]
         priority <- map["priority"]
-        dueDate <- (map["dueDate"], ISO8601DateTransform())
-        startDate <- (map["startDate"], ISO8601DateTransform())
+        dueDate <- (map["dueDate"], TBDateTransform())
+        startDate <- (map["startDate"], TBDateTransform())
         note <- map["note"]
         content <- map["content"]
         url <- (map["url"], URLTransform())

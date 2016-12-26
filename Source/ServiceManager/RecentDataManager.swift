@@ -23,12 +23,12 @@ final class RecentDataManager {
     static var futureItems: [RecentDataItem] = []
     
     static func requestRecentData(completion: @escaping (_ result: Result<Void>) -> Void) {
-        let dueDateString = ISO8601DateFormatter().string(from: 7.days.from(date: Date().startOf(component: .day))!)
+        let dueDateString = (Date().startOf(component: .day) + 7.days).tbISOFormattedString
         let parameters = ["dueDate": dueDateString]
         
         Alamofire.request(RequestRouter.api(path: "api/users/recent", parameters: parameters, method: .get))
             .validate()
-            .responseJSON { (response) in
+            .responseJSON { response in
                 if case .success(let info) = response.result, let jsonArray = info as? [[String: Any]] {
                     DispatchQueue.global(qos: .background).async {
                         let processedItems = processServerData(jsonArray)
@@ -55,8 +55,8 @@ final class RecentDataManager {
         var eventItems: [Event] = []
         
         for jsonObj in jsonArray {
-            if let objectID = jsonObj["_id"] as? String {
-                switch objectID {
+            if let objectType = jsonObj["type"] as? String {
+                switch objectType {
                 case "task":
                     let task = taskMapper.map(JSON: jsonObj)!
                     taskItems.append(task)

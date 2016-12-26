@@ -36,17 +36,17 @@ final class Event: Mappable {
     
     func mapping(map: Map) {
         id <- map["_id"]
-        startDate <- (map["startDate"], ISO8601DateTransform())
-        endDate <- (map["endDate"], ISO8601DateTransform())
+        startDate <- (map["startDate"], TBDateTransform())
+        endDate <- (map["endDate"], TBDateTransform())
         projectID <- map["_projectId"]
         creatorID <- map["_creatorId"]
         sourceID <- map["_sourceId"]
         status <- map["status"]
         recurrence <- map["recurrence"]
-        untilDate <- (map["untilDate"], ISO8601DateTransform())
+        untilDate <- (map["untilDate"], TBDateTransform())
         tagIDs <- map["tagIds"]
-        updated <- (map["updated"], ISO8601DateTransform())
-        created <- (map["created"], ISO8601DateTransform())
+        updated <- (map["updated"], TBDateTransform())
+        created <- (map["created"], TBDateTransform())
         isDeleted <- map["isDeleted"]
         visible <- map["visible"]
         involveMembers <- map["involveMembers"]

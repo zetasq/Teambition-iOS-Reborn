@@ -22,6 +22,7 @@
 		D42EE86B1E0FE23200EF03E6 /* ProjectDigest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42EE86A1E0FE23200EF03E6 /* ProjectDigest.swift */; };
 		D42EE86D1E0FE3BB00EF03E6 /* AutoReusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42EE86C1E0FE3BB00EF03E6 /* AutoReusable.swift */; };
 		D42EE86F1E0FED4600EF03E6 /* TaskDigest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42EE86E1E0FED4600EF03E6 /* TaskDigest.swift */; };
+		D4434F611E12552700BB5B7C /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4434F601E12552700BB5B7C /* Date+Extension.swift */; };
 		D4677CB21E0EB874007808B2 /* OAuth2Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4677CB11E0EB874007808B2 /* OAuth2Manager.swift */; };
 		D4677CB51E0EC6C2007808B2 /* RequestRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4677CB41E0EC6C2007808B2 /* RequestRouter.swift */; };
 		D4677CB71E0ED084007808B2 /* AccessTokenAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4677CB61E0ED084007808B2 /* AccessTokenAdapter.swift */; };
@@ -77,6 +78,7 @@
 		D42EE86A1E0FE23200EF03E6 /* ProjectDigest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectDigest.swift; sourceTree = "<group>"; };
 		D42EE86C1E0FE3BB00EF03E6 /* AutoReusable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoReusable.swift; sourceTree = "<group>"; };
 		D42EE86E1E0FED4600EF03E6 /* TaskDigest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskDigest.swift; sourceTree = "<group>"; };
+		D4434F601E12552700BB5B7C /* Date+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
 		D4677CB11E0EB874007808B2 /* OAuth2Manager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OAuth2Manager.swift; sourceTree = "<group>"; };
 		D4677CB41E0EC6C2007808B2 /* RequestRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestRouter.swift; sourceTree = "<group>"; };
 		D4677CB61E0ED084007808B2 /* AccessTokenAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccessTokenAdapter.swift; sourceTree = "<group>"; };
@@ -152,6 +154,7 @@
 			isa = PBXGroup;
 			children = (
 				D42EE84D1E0F770300EF03E6 /* String+Extension.swift */,
+				D4434F601E12552700BB5B7C /* Date+Extension.swift */,
 			);
 			path = Foundation;
 			sourceTree = "<group>";
@@ -482,6 +485,7 @@
 				D4677CC11E0EDEE6007808B2 /* ReachabilityManager.swift in Sources */,
 				D42EE84E1E0F770300EF03E6 /* String+Extension.swift in Sources */,
 				D4677CBC1E0ED2B3007808B2 /* MainViewController.swift in Sources */,
+				D4434F611E12552700BB5B7C /* Date+Extension.swift in Sources */,
 				D42EE8691E0FE06F00EF03E6 /* MainEventCell.swift in Sources */,
 				D42EE86B1E0FE23200EF03E6 /* ProjectDigest.swift in Sources */,
 				D42EE8551E0F994000EF03E6 /* Task.swift in Sources */,
@@ -649,7 +653,7 @@
 				);
 				INFOPLIST_FILE = Tinbox/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.zetasq.Tinbox;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zetasq.tinbox;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -667,7 +671,7 @@
 				INFOPLIST_FILE = Tinbox/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_SWIFT_FLAGS = "";
-				PRODUCT_BUNDLE_IDENTIFIER = com.zetasq.Tinbox;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zetasq.tinbox;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
